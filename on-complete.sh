@@ -51,7 +51,7 @@ EXCLUDE_FILE='html,url,lnk,txt,jpg,png,htm,*A57X*,*uuf39*,*UUS75*,*荷官*,*UUE2
 export RCLONE_RETRIES=3
 
 # RCLONE 上传失败重试等待时间，默认禁用，单位 s, m, h
-export RCLONE_RETRIES_SLEEP=10s
+export RCLONE_RETRIES_SLEEP=20s
 
 # RCLONE 异常退出重试次数
 RETRY_NUM=3
